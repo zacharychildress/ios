@@ -119,3 +119,26 @@ peopleSet.insert("Oprah")
 peopleSet.insert("Ricky Bobby")
 peopleSet.insert("Han Solo")
 print(peopleSet)
+
+//enums
+enum Weekday {
+    case monday
+    case tuesday
+    case wednesday
+    case thursday
+    case friday
+}
+
+var day = Weekday.monday
+day = Weekday.tuesday
+day = Weekday.friday
+
+enum Months {
+    case january, february, march, april, may, june, july, august, september, october, november, december
+}
+
+var month = Months.july
+month = .october
+month = .april
+
+
